@@ -6,7 +6,7 @@ npm run dev
 ```
 
 1. Open http://localhost:4321/ (works)
-2. Open http://localhost:4321/b (500: `Could not find server component name …/IslandB.astro`)
+2. Click "Go to /b" (500: `Could not find server component name …/IslandB.astro`)
 
 Restart and open `/b` first, and both pages work.
 
