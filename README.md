@@ -8,7 +8,7 @@ npm run dev
 1. Open http://localhost:4321/ (works)
 2. Click "Go to /b" (500: `Could not find server component name …/IslandB.astro`)
 
-Restart and open `/b` first, and both pages work.
+It only breaks if `/` was opened first after starting the server. Restart and open `/b` first, and both pages work.
 
 `IslandB.astro` imports `astro:actions`. Remove that import and the bug goes away.
 
